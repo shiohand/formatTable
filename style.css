@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 90%;
+  min-width: 500px;
+  margin: auto;
+  font-size: 1.6rem;
+}
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+.box {
+  min-height: 100px;
+  max-height: 300px;
+  overflow: auto;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 1.0rem;
+  border: solid 1px #000000;
+}
+#output-box {
+  height: 400px;
+  margin: 0 auto;
+  white-space: pre-wrap;
+}
+#preview-box {
+  max-height: auto;
+}
+#preview-box table {
+  margin: 1.5rem;
+  border-collapse: collapse;
+}
+#preview-box table, #preview-box tr, #preview-box th, #preview-box td {
+  border: solid 1px #000000;
+}
+#preview-box tr, #preview-box th, #preview-box td {
+  padding: 1.0rem;
+}
+#preview-box p {
+  margin: 0.8rem 0;
+}
